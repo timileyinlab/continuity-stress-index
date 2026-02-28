@@ -1,0 +1,99 @@
+---
+title: "Appendix S1. Full Statistical Analysis Plan (SAP)"
+output:
+  word_document:
+    toc: true
+    toc_depth: '3'
+  html_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+# Appendix S1. Full Statistical Analysis Plan (SAP)
+
+## S1.1 Objectives and estimands
+
+The primary estimands are within-economy associations between (i) adaptation capability measures and (ii) policy support/access measures with continuity outcomes over time, expressed as marginal effects on (a) arrears risk and (b) sales recovery metrics. Secondary estimands include effect modification by firm size and sector and complementarity between capabilities and policy support.
+
+## S1.2 Analysis dataset and unit of analysis
+
+The analytic dataset is a panel of economy–time–stratum observations for 2020–2021. Each record corresponds to an indicator estimate for a defined economy, month/wave, and stratification categories (e.g., sector and firm size). Indicators are treated as continuous percentages; for models requiring (0,1) scaling, values are divided by 100 and boundary-adjusted using
+
+\[
+\frac{y(n-1)+0.5}{n}
+\]
+
+when needed for beta-family models.
+
+## S1.3 Primary outcomes (definitions and scale)
+
+Arrears risk is analyzed as a percentage share. Sales shock is analyzed using both average sales change (continuous, can be negative) and the share with decreased sales (bounded). Recovery expectations are analyzed on their natural scale and also standardized for comparability across economies.
+
+## S1.4 Primary exposures (definitions and lags)
+
+All capability and policy exposures are analyzed contemporaneously and with prespecified lags \(\ell \in \{1,2\}\) time units when available, prioritizing lagged models for interpretation. “Support” is represented both as (i) any support received/expected and (ii) support by type where available; “barriers” are represented by the distribution of reasons for no access.
+
+## S1.5 Index construction
+
+Let \(x_k\) denote standardized capability indicators. The Adaptation Capability Index (ACI) is defined as:
+
+\[
+ACI_{e,t,s} = \sum_{k \in K} w_k \cdot z\big(x_{e,t,s,k}\big),
+\]
+
+with primary weights \(w_k\) taken from the first principal component loadings (PCA) and secondary weights set to \(w_k = 1/\lvert K \rvert\). The Continuity Stress Index (CSI) is constructed analogously from stress indicators. Stability of weights is assessed via leave-one-economy-out resampling.
+
+## S1.6 Main models
+
+**Model family A (continuous outcomes, e.g., average sales change):** linear fixed-effects models with economy and time fixed effects.
+
+**Model family B (bounded outcomes, e.g., arrears share, decreased sales share):** fractional response models (quasi-binomial with logit link) as the primary bounded-outcome specification; beta regression is used as a sensitivity analysis after scaling and boundary adjustment.
+
+For each endpoint, we report: coefficient estimates, robust standard errors, 95% confidence intervals, and standardized effect sizes (per 1 SD increase in ACI and/or policy support). We present marginal effects for interaction models using predicted values at representative exposure percentiles.
+
+## S1.7 Complementarity, substitution, and friction mechanisms
+
+Complementarity is evaluated via the interaction coefficient \(\beta_3\) and by comparing predicted outcomes under four counterfactual exposure bundles: (low ACI/low support), (high ACI/low support), (low ACI/high support), (high ACI/high support). Access friction is evaluated by adding barrier-profile measures and testing whether barriers attenuate the support–outcome association (support × barrier interactions).
+
+## S1.8 Confounding control and interpretation
+
+Because policy receipt and adaptation may respond to distress, primary interpretation is associational. To mitigate simultaneity, we prioritize lagged exposure models, economy fixed effects (controlling time-invariant economy factors), and time fixed effects (capturing global shock timing). We also conduct negative-control style checks using labor adjustment indicators where conceptually appropriate to detect implausible directionality patterns.
+
+## S1.9 Missing data and measurement harmonization
+
+We assess missingness patterns by economy, time, and stratum. When indicators are missing sporadically, models are fit using complete-case analysis with sensitivity checks using multiple imputation at the indicator level only when missingness is plausibly at random conditional on economy, time, and stratum. We document indicator availability and do not impute across structurally absent strata.
+
+## S1.10 Multiple testing control
+
+The primary familywise inference set is limited to the two primary outcomes and the prespecified ACI and policy-support exposures. Secondary endpoints and exploratory clustering results are explicitly labeled as exploratory. Where multiple related hypotheses are tested, we control the false discovery rate using Benjamini–Hochberg within outcome families.
+
+## S1.11 Robustness and sensitivity analyses
+
+Robustness checks include (i) alternative time controls (month vs wave), (ii) alternative standard errors (Driscoll–Kraay), (iii) alternative index weighting (equal-weight), (iv) excluding economies with sparse time points, and (v) re-estimating models by sector and firm size strata to verify sign and magnitude stability.
+
+## S1.12 Outputs
+
+Primary outputs include (i) an economy-by-time continuity dashboard of CSI and ACI trajectories, (ii) fixed-effects coefficient and marginal-effect plots for key exposures, (iii) a “policy friction map” summarizing dominant access barriers by economy/sector/size, and (iv) a typology of resilience archetypes with interpretable profiles for continuity planning.
+
+## Statistical models (notation)
+
+### Fixed-effects baseline model
+
+\[
+Y_{e,t,s} = \alpha_e + \gamma_t + \beta^{\top} X_{e,t-\ell,s} + \delta^{\top} Z_{e,t,s} + \varepsilon_{e,t,s},
+\]
+
+where \(Y_{e,t,s}\) is a continuity endpoint for economy \(e\), time \(t\), and stratum \(s\); \(\alpha_e\) are economy fixed effects; \(\gamma_t\) are time fixed effects (month or survey wave); \(X\) are lagged capability measures; and \(Z\) includes contemporaneous controls (e.g., labor-adjustment indicators) used for precision when appropriate.
+
+### Complementarity interaction model
+
+\[
+Y_{e,t,s} = \alpha_e + \gamma_t + \beta_1 Cap_{e,t-\ell,s} + \beta_2 Support_{e,t-\ell,s} + \beta_3 (Cap \times Support)_{e,t-\ell,s} + \varepsilon_{e,t,s}.
+\]
+
+A positive (or negative, depending on outcome scaling) \(\beta_3\) is interpreted as evidence of complementarity (or substitution). Separately, access barriers are modeled as moderators to quantify when support availability fails to translate into continuity improvement.
