@@ -1,0 +1,5 @@
+Stratum,n,Arrears_mean,Arrears_p50,SalesChange_mean,DropSales_mean,SalesExp6m_mean
+Sector: Other Services,82.000,44.253,46.015,-40.273,74.978,-2.961
+Sector: Manufacturing,77.000,42.722,38.810,-35.497,71.668,-1.232
+Sector: Retail,77.000,41.452,35.930,-33.557,72.613,-0.491
+Sector: Agriculture,42.000,46.071,40.185,-28.555,64.349,0.897

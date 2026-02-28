@@ -1,0 +1,4 @@
+model,term,estimate,std.error,conf.low,conf.high,p.value
+Sales change FE (lag(1)),ACI (lag(1)),-2.614,2.666,-7.998,2.770,0.333
+Sales change FE (lag(1)),Public support access (lag(1)),0.028,0.082,-0.138,0.193,0.737
+Sales change FE (lag(1)),ACI × Support (lag(1)),0.127,0.039,0.048,0.206,0.002

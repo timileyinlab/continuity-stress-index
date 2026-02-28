@@ -1,0 +1,5 @@
+Stratum,n,Arrears_mean,Arrears_p50,SalesChange_mean,DropSales_mean,SalesExp6m_mean
+Size: Small (5-19),83.000,46.419,45.575,-38.630,74.852,-1.949
+Size: Medium (20-99),78.000,44.545,44.950,-33.330,70.261,-3.945
+Size: Micro (0-4),77.000,41.820,42.640,-40.803,74.883,2.159
+Size: Large (100+),57.000,37.089,36.275,-24.246,62.292,-3.701

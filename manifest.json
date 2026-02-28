@@ -1,0 +1,20 @@
+{
+  "run_timestamp_utc": "2026-01-22 07:50:13.25167",
+  "data_root": "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity",
+  "out_dir": "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/outputs/wb_bps_business_continuity_results_20260122_075006",
+  "inputs": ["/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS.csv", "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS_WIDEF.csv", "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS_DATADICT.csv", "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS.json", "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS.pdf"],
+  "outputs": {
+    "figures_dir": "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/outputs/wb_bps_business_continuity_results_20260122_075006/figures_png",
+    "tables_dir": "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/outputs/wb_bps_business_continuity_results_20260122_075006/tables",
+    "models_dir": "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/outputs/wb_bps_business_continuity_results_20260122_075006/models",
+    "data_dir": "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/outputs/wb_bps_business_continuity_results_20260122_075006/data",
+    "log_path": "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/outputs/wb_bps_business_continuity_results_20260122_075006/logs/run_log.txt"
+  },
+  "md5_inputs": {
+    "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS.csv": "68855c77c091bb7cabf57a77a6297e6a",
+    "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS_WIDEF.csv": "f67d1539d74ff2afc2b5bd87e560eb54",
+    "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS_DATADICT.csv": "b044d23f0c03efed7ba23f833bb94bac",
+    "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS.json": "cb6a63ea56ac8d20d624c27e9febe57f",
+    "/Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/WB_BPS.pdf": "79bc08e3a02327994baeb9a9a7b9d39f"
+  }
+}

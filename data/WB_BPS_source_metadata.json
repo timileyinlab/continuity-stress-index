@@ -1,0 +1,285 @@
+{
+    "schema": "http://ihsn.org/schemas/timeseries-db",
+    "schema_version": "0.0.1",
+    "type": "timeseries-db",
+    "idno": "de167959-8f75-403e-b15a-4a3e3d881a58",
+    "changed": "1764780895",
+    "changed_utc": "2025-12-03T11:54:55-05:00",
+    "created": "1740604343",
+    "created_utc": "2025-02-26T16:12:23-05:00",
+    "created_by": "91",
+    "changed_by": "4",
+    "database_description": {
+        "title_statement": {
+            "idno": "WB_BPS",
+            "title": "COVID-19 Business Pulse Surveys"
+        },
+        "abstract": "The COVID-19 Business Pulse Surveys, conducted by the World Bank, assesses the pandemic's impact on businesses worldwide. The surveys measure effects on sales, labor, liquidity, operations, and public policy support, covering firms of all sizes across diverse economic sectors and income levels. Conducted in two waves across 78 countries, the dataset includes responses from over 170,000 businesses.",
+        "authoring_entity": [
+            {
+                "name": "World Bank (WB)",
+                "uri": "https://www.worldbank.org"
+            }
+        ],
+        "url": "https://www.worldbank.org/en/data/interactive/2021/01/19/covid-19-business-pulse-survey-dashboard",
+        "update_frequency": "Archived",
+        "citation": "World Bank \"COVID-19 Business Pulse Surveys Dashboard\"/ The World Bank Group. Washington, DC. 2020. https://www.worldbank.org/en/data/interactive/2021/01/19/covid-19-business-pulse-survey-dashboard",
+        "license": [
+            {
+                "note": "You are encouraged to use the Datasets to benefit yourself and others in creative ways. You may extract, download, and make copies of the data contained in the Datasets, and you may share that data with third parties according to these terms of use.\n\nUnless specifically labeled otherwise, these Datasets are provided to you under a Creative Commons Attribution 4.0 International License (CC BY 4.0), with the additional terms below.  The basic terms may be accessed here.  When you download or use the Datasets, you are agreeing to comply with the terms of a CC BY 4.0 license, and also agreeing to the following mandatory and binding addition: \n\nAny and all disputes arising under this License that cannot be settled amicably shall be resolved in accordance with the following procedure:\n\n  Pursuant to a notice of mediation communicated by reasonable means by either You or the Licensor to the other, the dispute shall be submitted to non-binding mediation conducted in accordance with rules designated by the Licensor in the copyright notice published with the Work, or if none then in accordance with those communicated in the notice of mediation. The language used in the mediation proceedings shall be English unless otherwise agreed.\n \n\n  If any such dispute has not been settled within 45 days following the date on which the notice of mediation is provided, either You or the Licensor may, pursuant to a notice of arbitration communicated by reasonable means to the other, elect to have the dispute referred to and finally determined by arbitration. The arbitration shall be conducted in accordance with the rules designated by the Licensor in the copyright notice published with the Work, or if none then in accordance with the UNCITRAL Arbitration Rules as then in force. The arbitral tribunal shall consist of a sole arbitrator and the language of the proceedings shall be English unless otherwise agreed. The place of arbitration shall be where the Licensor has its headquarters. The arbitral proceedings shall be conducted remotely (e.g., via telephone conference or written submissions) whenever practicable\nYou agree to provide attribution to The World Bank and its data providers in the following format: The World Bank: Dataset name: Data source (if known). When sharing or facilitating access to the Datasets, you agree to include the same acknowledgment requirement in any sub-licenses of the data that you grant, and a requirement that any sub-licensees do the same. You may meet this requirement by providing the uniform resource locator (URL) of these terms of use.\n\nYou may use our application programming interfaces (\"APIs\") to facilitate access to the Datasets, whether through a separate Web site or through another type of software application.",
+                "uri": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets",
+                "name": "CC BY 4.0"
+            }
+        ],
+        "topics": [
+            {
+                "id": "P3",
+                "name": "Prosperity",
+                "vocabulary": "WB Practice Groups",
+                "uri": "https://fmr.worldbank.org/FMR/sdmx/v2/structure/codelist/WB.DATA360/CL_D360_TOPICS/1.0"
+            },
+            {
+                "id": "P3_000006",
+                "name": "Trade, Investment and Competitiveness",
+                "parent_id": "P3",
+                "vocabulary": "Data360 Topic L1",
+                "uri": "https://fmr.worldbank.org/FMR/sdmx/v2/structure/hierarchy/WB.DATA360/H_D360_TOPICS/1.0"
+            },
+            {
+                "id": "P3_000022",
+                "name": "Investment and Business Climate",
+                "parent_id": "P3_000006",
+                "vocabulary": "Data360 Topic L2",
+                "uri": "https://fmr.worldbank.org/FMR/sdmx/v2/structure/hierarchy/WB.DATA360/H_D360_TOPICS/1.0"
+            }
+        ],
+        "version": [
+            {
+                "version": "1.0",
+                "date": "2025-03-07"
+            }
+        ],
+        "time_coverage": [
+            {
+                "start": "2020",
+                "end": "2021"
+            }
+        ],
+        "ref_country": [
+            {
+                "name": "Afghanistan",
+                "code": "AFG"
+            },
+            {
+                "name": "Algeria",
+                "code": "DZA"
+            },
+            {
+                "name": "Argentina",
+                "code": "ARG"
+            },
+            {
+                "name": "Bangladesh",
+                "code": "BGD"
+            },
+            {
+                "name": "Benin",
+                "code": "BEN"
+            },
+            {
+                "name": "Brazil",
+                "code": "BRA"
+            },
+            {
+                "name": "Bulgaria",
+                "code": "BGR"
+            },
+            {
+                "name": "Burkina Faso",
+                "code": "BFA"
+            },
+            {
+                "name": "Cambodia",
+                "code": "KHM"
+            },
+            {
+                "name": "Chile",
+                "code": "CHL"
+            },
+            {
+                "name": "Croatia",
+                "code": "HRV"
+            },
+            {
+                "name": "Gabon",
+                "code": "GAB"
+            },
+            {
+                "name": "Ghana",
+                "code": "GHA"
+            },
+            {
+                "name": "India",
+                "code": "IND"
+            },
+            {
+                "name": "Indonesia",
+                "code": "IDN"
+            },
+            {
+                "name": "Kenya",
+                "code": "KEN"
+            },
+            {
+                "name": "Kosovo",
+                "code": "XKX"
+            },
+            {
+                "name": "Kyrgyz Republic",
+                "code": "KGZ"
+            },
+            {
+                "name": "Liberia",
+                "code": "LBR"
+            },
+            {
+                "name": "Madagascar",
+                "code": "MDG"
+            },
+            {
+                "name": "Malawi",
+                "code": "MWI"
+            },
+            {
+                "name": "Malaysia",
+                "code": "MYS"
+            },
+            {
+                "name": "Mexico",
+                "code": "MEX"
+            },
+            {
+                "name": "Nepal",
+                "code": "NPL"
+            },
+            {
+                "name": "Pakistan",
+                "code": "PAK"
+            },
+            {
+                "name": "Paraguay",
+                "code": "PRY"
+            },
+            {
+                "name": "Philippines",
+                "code": "PHL"
+            },
+            {
+                "name": "Poland",
+                "code": "POL"
+            },
+            {
+                "name": "Romania",
+                "code": "ROU"
+            },
+            {
+                "name": "Senegal",
+                "code": "SEN"
+            },
+            {
+                "name": "Sierra Leone",
+                "code": "SLE"
+            },
+            {
+                "name": "South Africa",
+                "code": "ZAF"
+            },
+            {
+                "name": "Sri Lanka",
+                "code": "LKA"
+            },
+            {
+                "name": "Tajikistan",
+                "code": "TJK"
+            },
+            {
+                "name": "Tanzania",
+                "code": "TZA"
+            },
+            {
+                "name": "Togo",
+                "code": "TGO"
+            },
+            {
+                "name": "Tunisia",
+                "code": "TUN"
+            },
+            {
+                "name": "T\u00fcrkiye",
+                "code": "TUR"
+            },
+            {
+                "name": "Uzbekistan",
+                "code": "UZB"
+            },
+            {
+                "name": "Vietnam",
+                "code": "VNM"
+            },
+            {
+                "name": "Nigeria",
+                "code": "NGA"
+            },
+            {
+                "name": "Sudan",
+                "code": "SDN"
+            },
+            {
+                "name": "C\u00f4te d\u2019Ivoire",
+                "code": "CIV"
+            },
+            {
+                "name": "West Bank and Gaza",
+                "code": "PSE"
+            },
+            {
+                "name": "Mali",
+                "code": "MLI"
+            }
+        ],
+        "confidentiality_status": "PU"
+    },
+    "admin_metadata": {
+        "data360": {
+            "visualization": {
+                "remove_chart": [
+                    {
+                        "chart_types": "stackedBar"
+                    },
+                    {
+                        "chart_types": "pie"
+                    }
+                ]
+            },
+            "topics": [
+                {
+                    "id": "P3",
+                    "label": "Prosperity",
+                    "vocabulary": "WB Practice Groups"
+                },
+                {
+                    "id": "P3_000006",
+                    "label": "Trade, Investment and Competitiveness",
+                    "vocabulary": "Data360 Topic L1",
+                    "parent_id": "P3"
+                },
+                {
+                    "id": "P3_000022",
+                    "label": "Investment and Business Climate",
+                    "vocabulary": "Data360 Topic L2",
+                    "parent_id": "P3_000006"
+                }
+            ]
+        }
+    }
+}

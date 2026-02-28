@@ -1,0 +1,46 @@
+INDICATOR,INDICATOR_LABEL,economies,periods,rows
+OVERALL,All required indicators (overall),45,18,8984
+WB_BPS_RCV_POLICY,"Business Pulse Surveys: Received/Expected support: Share of
+firms (over total surveyed) that received support",39,17,2020
+WB_BPS_DROPSALES,"Percentage of establishments with decreased monthly sales
+year before the interview (Business Pulse Surveys)",43,18,610
+WB_BPS_CHANGE_SALES,"Average percentage change in monthly sales compared to 1
+year before the interview (Business Pulse Surveys)",42,18,609
+WB_BPS_PLANTS_FIRED,"Share of establishments that fired workers in the last 30
+days (Business Pulse Surveys)",43,18,609
+WB_BPS_ACCESS,"Share of establishments that received or expect to receive
+public assistance in the near future (Business Pulse
+Surveys)",40,17,565
+WB_BPS_PLANTS_HOURS_CUT,"Share of establishments that reduced hours in the last 30
+days (Business Pulse Surveys)",42,18,554
+WB_BPS_PLANTS_WAGES_CUT,"Share of establishments that reduced wages in the last 30
+days (Business Pulse Surveys)",43,18,545
+WB_BPS_PLANTS_ABSENCE,"Share of establishments that granted leave to workers in the
+last 30 days (Business Pulse Surveys)",39,18,523
+WB_BPS_ARREARS,"Share of establishments in arrears or expect to fall in next
+6 months (Business Pulse Surveys)",34,17,513
+WB_BPS_USE_DIGITAL,"Share of firms that started or increased the use of digital
+platforms (no micro firms included) (Business Pulse Surveys)",42,16,487
+WB_BPS_REMOTE_WORKERS,"Share of employees working remotely at the time of the
+interview (no micro firms included) (Business Pulse Surveys)",37,17,452
+WB_BPS_EXPECTATIONS_SALES,"Weighted average of sales expectation in 6 months relative
+to 2019 (Business Pulse Surveys)",29,16,353
+WB_BPS_ONLINE_SALES,"Share of monthly sales using digital platforms during the
+last 30 days (no micro firms included) (Business Pulse
+Surveys)",32,15,353
+WB_BPS_ORDERS_CANCEL,"Share of firms that cancelled orders because of delays
+or interruption of inputs for production (Business Pulse
+Surveys)",22,8,181
+WB_BPS_PROTOCOL_2,"Share of firms that implemented modification in workers'
+shift (Business Pulse Surveys)",13,6,106
+WB_BPS_STOP_SELL,"Share of firms that stopped selling to exporters and
+multinationals after covid (conditional) (Business Pulse
+Surveys)",18,6,103
+WB_BPS_PROTOCOL_1,"Share of firms that implemented health protocols for workers
+(Business Pulse Surveys)",13,6,102
+WB_BPS_PROTOCOL_4,"Share of firms that changed the layout of the establishment
+(Business Pulse Surveys)",13,6,101
+WB_BPS_PROTOCOL_5,"Share of firms that adopted alternative payment methods
+(Business Pulse Surveys)",13,6,101
+WB_BPS_PROTOCOL_3,"Share of firms that implemented health protocols for
+customers (Business Pulse Surveys)",12,5,97

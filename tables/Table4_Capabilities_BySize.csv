@@ -1,0 +1,5 @@
+Stratum,n,UseDigital_mean,OnlineSales_mean,RemoteWork_mean,Protocols_mean,ACI_mean,CSI_mean
+Size: Small (5-19),83.000,43.742,17.841,8.635,45.904,-0.177,0.127
+Size: Medium (20-99),78.000,52.143,19.606,9.151,49.662,0.035,0.113
+Size: Micro (0-4),77.000,—,—,—,41.730,—,-0.176
+Size: Large (100+),57.000,56.856,19.919,13.039,56.783,0.309,-0.046

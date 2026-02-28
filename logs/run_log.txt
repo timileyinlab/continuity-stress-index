@@ -1,0 +1,11 @@
+[2026-01-22 07:50:07 UTC] Loaded WB_BPS.csv rows= 12577  | economies= 45  | periods= 18 
+[2026-01-22 07:50:08 UTC] Panel sizes: total= 84  | size= 295  | sector= 278 
+[2026-01-22 07:50:08 UTC] Lag(1) feasible?  TRUE 
+[2026-01-22 07:50:10 UTC] Saved figure:  Figure1_ArrearsTrend_BySize.png 
+[2026-01-22 07:50:10 UTC] Saved figure:  Figure2_SalesChangeTrend_BySize.png 
+[2026-01-22 07:50:11 UTC] Saved figure:  Figure3_ACI_vs_Arrears_BySize.png 
+[2026-01-22 07:50:11 UTC] Saved figure:  Figure4_Arrears_by_ACI_by_SupportTier.png 
+[2026-01-22 07:50:12 UTC] Saved figure:  Figure5_Heatmap_Arrears_ByEconomy_Top30.png 
+[2026-01-22 07:50:12 UTC] Saved figure:  Figure6_Sector_Profile_ACI_CSI.png 
+[2026-01-22 07:50:13 UTC] Saved figure:  Figure7_FE_Coefficients.png 
+[2026-01-22 07:50:13 UTC] DONE. Outputs in:  /Users/drsunjava/Desktop/2. Medical Boards Stack/Abstracts/timileyin-bcontinuity/outputs/wb_bps_business_continuity_results_20260122_075006 

@@ -1,0 +1,5 @@
+cluster,economies,ACI_mean,CSI_mean,Arrears_mean,SalesChange_mean,Support_mean
+Archetype 4,16.000,-0.446,-0.376,34.409,-29.872,23.074
+Archetype 1,15.000,-0.181,0.706,63.056,-52.161,15.543
+Archetype 3,7.000,0.518,0.112,44.197,-32.650,55.702
+Archetype 2,6.000,0.500,-0.653,18.461,-12.606,50.753
