@@ -69,8 +69,8 @@ sessionInfo.txt R session information for reproducibility
 ## Citation
 If you use this repository, please cite:
 
-**Manuscript (preprint/submitted):**  
-Adetunji OC, Adetunji SA, Aromolaran O, Ajayi P, Afolabi O. *Capability Bundles, Policy Frictions, and Sales–Liquidity Divergence in Crisis: Evidence from the World Bank Business Pulse Surveys, 2020–21.* (Preprint/submitted).
+**Manuscript (Journal of Business & Management Studies):**  
+Adetunji OC, Adetunji SA, Aromolaran O, Ajayi P, Afolabi O. *Capability Bundles, Policy Frictions, and Sales–Liquidity Divergence in Crisis: Evidence from the World Bank Business Pulse Surveys, 2020–21.* (Journal of Business Management & Management Studies).
 
 **Data:**  
 World Bank. *COVID-19 Business Pulse Surveys (WB_BPS) harmonized indicators (2020–2021).* Data360. https://data360.worldbank.org/en/dataset/WB_BPS
